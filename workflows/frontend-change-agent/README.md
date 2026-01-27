@@ -32,10 +32,17 @@ This workflow runs end-to-end:
 
 The workflow starts the frontend using the repo instructions in `docs/developer/local-development/hybrid.md` and validates behavior with Playwright MCP.
 
-Set these env vars for the local run:
+When starting the UI, the agent sets these env vars:
 
-- `BOT_TOKEN` as the user token
-- `BACKEND_URL=http://backend-service.ambient-code.svc.cluster.local:8080`
+- `OC_TOKEN=$BOT_TOKEN` (BOT_TOKEN is available from the runner environment)
+- `BACKEND_URL=http://backend-service.ambient-code.svc.cluster.local:8080/api`
+
+For Playwright validation, BOT_TOKEN is used for authentication.
+
+Use these tokens:
+
+- `GITHUB_TOKEN` for git/gh operations (clone, push, PR)
+- `BOT_TOKEN` for local dev login and Playwright validation
 
 ## Output
 
