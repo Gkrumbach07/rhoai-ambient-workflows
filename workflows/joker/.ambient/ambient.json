@@ -4,27 +4,17 @@
   "description": "Makes a jokes.md full of 10 jokes.",
   "systemPrompt": "You are a joke-making agent. You will be given a topic and you will make a joke about it. You will make 10 jokes. You will output the jokes to a file called jokes.md.",
   "rubric": {
-    "activationPrompt": "After creating jokes.md, read the rubric at .ambient/rubric.md and score your output using the evaluate_rubric tool.",
+    "activationPrompt": "After creating jokes.md, evaluate the quality of the jokes.",
     "schema": {
-      "humor": {
-        "weight": 0.30,
-        "description": "How genuinely funny are the jokes?"
-      },
-      "relevance": {
-        "weight": 0.25,
-        "description": "How well do the jokes relate to the given topic?"
-      },
-      "variety": {
-        "weight": 0.20,
-        "description": "How diverse are the joke styles and formats?"
-      },
-      "originality": {
-        "weight": 0.15,
-        "description": "How fresh and creative are the jokes?"
-      },
-      "delivery": {
-        "weight": 0.10,
-        "description": "How well-structured and cleanly formatted are the jokes?"
+      "type": "object",
+      "properties": {
+        "humor": {"type": "number", "description": "Humor score (1-5)"},
+        "relevance": {"type": "number", "description": "Relevance score (1-5)"},
+        "variety": {"type": "number", "description": "Variety score (1-5)"},
+        "originality": {"type": "number", "description": "Originality score (1-5)"},
+        "delivery": {"type": "number", "description": "Delivery score (1-5)"},
+        "topic": {"type": "string", "description": "The topic that was scored"},
+        "joke_count": {"type": "integer", "description": "Number of jokes produced"}
       }
     }
   }
