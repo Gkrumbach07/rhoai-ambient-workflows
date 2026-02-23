@@ -17,22 +17,22 @@ Score the generated jokes.md file on the following criteria:
 - **1**: Jokes have nothing to do with the topic.
 
 ## Variety (Weight: 0.20)
-- **5**: Excellent mix of joke styles (one-liners, observational, puns, setups, absurdist).
+- **5**: Excellent mix of joke styles (one-liners, observational, narrative, setups, absurdist). Puns may appear but are not the dominant format.
 - **4**: Good variety, 3-4 different styles represented.
-- **3**: Some variety but leans heavily on one format.
-- **2**: Mostly the same style repeated.
-- **1**: All jokes follow the exact same structure.
+- **3**: Some variety but leans heavily on one format (e.g., mostly puns).
+- **2**: Mostly the same style repeated; or puns/wordplay make up the majority of jokes.
+- **1**: All jokes follow the exact same structure, or the entire set is puns.
 
 ## Originality (Weight: 0.15)
-- **5**: Fresh, creative jokes you haven't heard before.
+- **5**: Fresh, creative jokes you haven't heard before. No recycled puns or well-known pop-culture references.
 - **4**: Mostly original with a fresh spin on familiar setups.
-- **3**: Mix of original and commonly heard jokes.
-- **2**: Mostly recycled or well-known jokes.
-- **1**: All jokes are obvious or overused.
+- **3**: Mix of original and commonly heard jokes; some familiar puns or references present.
+- **2**: Mostly recycled or well-known jokes; relies on common puns or recognizable references.
+- **1**: All jokes are obvious, overused, or lifted from well-known sources.
 
 ## Delivery (Weight: 0.10)
-- **5**: Perfect timing, clean formatting, great flow between jokes.
+- **5**: Perfect timing, clean formatting (bullet points), great flow between jokes.
 - **4**: Well-structured, minor formatting issues.
-- **3**: Readable but could be tighter.
-- **2**: Awkward phrasing or messy formatting.
+- **3**: Readable but could be tighter; or uses numbered list instead of bullet points.
+- **2**: Awkward phrasing, messy formatting, or uses numbered list with other issues.
 - **1**: Hard to follow, poor structure.

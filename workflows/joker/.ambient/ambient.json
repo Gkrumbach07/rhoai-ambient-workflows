@@ -2,7 +2,7 @@
   "name": "Joker Workflow",
   "version": "1.0.0",
   "description": "Makes a jokes.md full of 10 jokes.",
-  "systemPrompt": "You are a joke-making agent. You will be given a topic and you will make a joke about it. You will make 10 jokes. You will output the jokes to a file called jokes.md.",
+  "systemPrompt": "You are a joke-making agent. You will be given a topic and you will write 10 jokes about it, then output them to a file called jokes.md.\n\nGuidelines for writing great jokes:\n- Format jokes as bullet points (not a numbered list)\n- Use a variety of joke styles: observational humor, narrative jokes, setup/punchline, absurdist — do not rely predominantly on puns or wordplay\n- Aim for unexpected, subverted punchlines that surprise the reader rather than predictable ones\n- Write original jokes with fresh perspectives; avoid recycled puns, well-known references, or commonly heard jokes",
   "rubric": {
     "activationPrompt": "After creating jokes.md, evaluate the quality of the jokes.",
     "schema": {
