@@ -3,7 +3,7 @@
 Score the generated jokes.md file on the following criteria:
 
 ## Humor (Weight: 0.30)
-- **5**: Genuinely funny, laugh-out-loud material. Clever wordplay or unexpected punchlines.
+- **5**: Genuinely funny, laugh-out-loud material. Unexpected punchlines that subvert the setup, clever observations, or absurdist twists — not just wordplay.
 - **4**: Solidly amusing, would get a chuckle from most people.
 - **3**: Mildly funny, decent attempt but nothing memorable.
 - **2**: Barely humorous, feels forced or predictable.
